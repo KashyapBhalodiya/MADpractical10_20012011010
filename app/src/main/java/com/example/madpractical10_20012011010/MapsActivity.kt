@@ -1,17 +1,17 @@
 package com.example.madpractical10_20012011010
 
 import android.os.Build
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatActivity
-import com.example.madpractical10_20012011010.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.example.madpractical10_20012011010.databinding.ActivityMapsBinding
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
